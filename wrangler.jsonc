@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "triagem-cobrancas",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-07",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "secrets": {
+    "required": ["GROQ_API_KEY"]
+  }
+}
